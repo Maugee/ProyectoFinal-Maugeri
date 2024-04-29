@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo Indumentaria</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1 id="todo">Todo Indumentaria</h1>
+    <a href="#final" id="verCarrito"><img src="./img/carrito.png" alt=""></a>
+    <button id="color"><img src="./img/contrast-outline.svg" alt=""></button>
+    </header>
+    
+    <main>
+        <div class="tipos">
+            <button id="indumentaria">Indumentaria</button>
+            <button id="calzado">Calzado</button>
+            <button id="hombre">Hombre</button>
+            <button id="mujer">Mujer</button>
+        </div> 
+    <div id="contenedorProductos"></div>
+    </main>
+
+    <footer id="final">
+        <hr>
+        <h2>CARRITO</h2>
+    <div id="contenedorCarrito"></div>
+    <h4><span id="total"></span></h4>
+    <div class="botones">
+        <button id="comprar">Comprar</button>
+        <button id="vaciarCarrito">Vaciar Carrito</button>
+    </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
